@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anika-group-in-georgia.com/sitemap.xml
