@@ -19,6 +19,21 @@
 
     gtag('config', 'AW-17607431194');
   </script>
+    <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof url !== 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17607431194/1HfFCNW6tKMbEJqo8MtB',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
 </head>>
 <body>
 
@@ -39,7 +54,7 @@
     <div class="wrap">
       <h1>Бизнес в Грузии</h1>
       <p class="tagline">Открытие ООО, ИП, ТОО и сопутствующие услуги</p>
-      <a class="cta" href="https://t.me/SAMVELOVNA1981" target="_blank" rel="noopener">Консультация в Telegram</a>
+     <a class="cta" href="https://t.me/SAMYELOVNA1981" onclick="return gtag_report_conversion('https://t.me/SAMYELOVNA1981')" target="_blank" rel="noopener">Консультация в Telegram</a>nk" rel="noopener">Консультация в Telegram</a>
       <div class="contact-quick">
         <span class="muted">или по телефону: </span>
         <a class="btn outline" href="tel:+995599354738">+995 599 354 738</a>
@@ -78,8 +93,7 @@
         </div>
       </div>
       <div class="center mt-24">
-        <a class="btn" href="https://t.me/SAMVELOVNA1981" target="_blank" rel="noopener">Получить чек‑лист</a>
-      </div>
+      <a class="btn" href="https://t.me/SAMYELOVNA1981" onclick="return gtag_report_conversion('https://t.me/SAMYELOVNA1981')" target="_blank" rel="noopener">Получить чек-лист</a>
     </div>
   </section>
 
@@ -102,7 +116,7 @@
       <h2 class="center">Свяжитесь с нами</h2>
       <p class="center">Обсудите вашу идею бизнеса в Грузии с нашим специалистом.</p>
       <div class="center mt-24 contact-quick">
-        <a class="btn" href="https://t.me/SAMVELOVNA1981" target="_blank" rel="noopener">Написать в Telegram</a>
+        <<a class="btn" href="https://t.me/SAMYELOVNA1981" onclick="return gtag_report_conversion('https://t.me/SAMYELOVNA1981')" target="_blank" rel="noopener">Написать в Telegram</a>
         <a class="btn outline" href="tel:+995599354738">Позвонить</a>
       </div>
     </div>
