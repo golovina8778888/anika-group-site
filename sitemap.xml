@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://anika-group-in-georgia.com/</loc></url>
+  <url><loc>https://anika-group-in-georgia.com/index.html</loc></url>
+  <url><loc>https://anika-group-in-georgia.com/index-en.html</loc></url>
   <url><loc>https://anika-group-in-georgia.com/marriage.html</loc></url>
+  <url><loc>https://anika-group-in-georgia.com/marriage-en.html</loc></url>
   <url><loc>https://anika-group-in-georgia.com/business.html</loc></url>
+  <url><loc>https://anika-group-in-georgia.com/business-en.html</loc></url>
+  <url><loc>https://anika-group-in-georgia.com/404.html</loc></url>
+  <url><loc>https://anika-group-in-georgia.com/404-en.html</loc></url>
 </urlset>
