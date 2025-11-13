@@ -189,6 +189,26 @@ img{max-width:100%;display:block;border-radius:12px}
   padding:40px 0;
   color:var(--muted);
   text-align:center;
-  border-top:1px solid #1c1d23;
+  border-top:1px solid #1c1d23
+  
+/* Language switcher */
+.lang-switch{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap:10px;
+  margin-top:10px;
+}
+.lang-switch a{
+  color:var(--text);
+  text-decoration:none;
+  padding:5px 10px;
+  border-radius:5px;
+}
+.lang-switch a.active{
+  background:var(--accent);
+  color:#fff;
+
+
   margin-top:60px;
 }
