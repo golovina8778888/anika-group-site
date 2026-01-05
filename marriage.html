@@ -26,6 +26,25 @@
       gtag('config', 'AW-17607431194');
     </script>
 
+
+      <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) !== 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17607431194/l5FLCObthN0bEJqo8MtB',
+          'value': 1.0,
+          'currency': 'USD',
+          'event_callback': callback
+        });
+        return false;
+      }
+      </script>
+
+
   </head>
   <body>
     <!-- Шапка сайта -->
@@ -55,7 +74,7 @@
             <li>Международное свидетельство</li>
             <li>Прозрачно: без скрытых доплат</li>
           </ul>
-          <a class="cta" href="https://t.me/samvelovna1981" target="_blank" rel="noopener">Связаться в Telegram</a>
+          <a class="cta"  href="https://t.me/samvelovna1981" target="_blank" rel="noopener" onclick="return gtag_report_conversion();">Связаться в Telegram</a>
           <div class="contact-quick">
             <!-- Контактные кнопки: телефон, WhatsApp и Instagram -->
             <a class="btn" href="tel:+995599354738">Позвонить</a>
@@ -83,8 +102,8 @@
           <h2>Начните оформление брака уже сегодня</h2>
           <div class="contact-quick">
             <!-- Контактные кнопки: телефон, WhatsApp и Instagram -->
-            <a class="btn" href="tel:+995599354738">Позвонить</a>
-            <a class="btn" href="https://api.whatsapp.com/send?phone=995599354738" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn" href="tel:+995599354738" >Позвонить</a>
+            <a class="btn" href="https://api.whatsapp.com/send?phone=995599354738" target="_blank" rel="noopener" onclick="return gtag_report_conversion();">WhatsApp</a>
             <a class="btn" href="https://www.instagram.com/aniuta_anii?igsh=MTFrYXRsaXJnZHAyMQ==" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
