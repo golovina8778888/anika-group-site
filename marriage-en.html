@@ -25,22 +25,20 @@
       gtag('config', 'AW-17607431194');
     </script>
 
-          <script>
+    <script>
       function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof(url) !== 'undefined') {
-            window.location = url;
-          }
-        };
         gtag('event', 'conversion', {
           'send_to': 'AW-17607431194/l5FLCObthN0bEJqo8MtB',
-          'value': 1.0,
-          'currency': 'USD',
-          'event_callback': callback
+          'event_callback': function () {
+            if (url) {
+              window.open(url, '_blank', 'noopener,noreferrer');
+            }
+          }
         });
         return false;
       }
-      </script>
+    </script>
+
 
 
   </head>
